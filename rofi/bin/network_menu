@@ -9,7 +9,7 @@ https://wiki.archlinux.org/index.php/NetworkManager#Set_up_PolicyKit_permissions
 OR running the script as root
 
 Add dmenu formatting options and default terminal if desired to
-$HOME/.config/i3/rofi/themes/networkmenu_config.ini
+$HOME/.config/rofi/themes/networkmenu_config.ini
 
 """
 import pathlib
@@ -37,7 +37,7 @@ LOOP = GLib.MainLoop()
 CONNS = CLIENT.get_connections()
 
 CONF = configparser.ConfigParser()
-CONF.read(expanduser("~/.config/i3/rofi/themes/networkmenu_config.ini"))
+CONF.read(expanduser("~/.config/rofi/themes/networkmenu_config.ini"))
 
 def dmenu_cmd(num_lines, prompt="Networks", active_lines=None):  # pylint: disable=too-many-branches
     """Parse nmd.ini if it exists and add options to the dmenu command
