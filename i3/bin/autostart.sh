@@ -45,5 +45,12 @@ hsetroot -cover ~/.config/wallpapers/Sprinkle.svg
 
 #lxsession &
 
+# Audio
+easyeffects --gapplication-service &
+pasystray &
+
+# Blueberry
+blueberry-tray &
+
 # Start mpd
 # exec mpd &
