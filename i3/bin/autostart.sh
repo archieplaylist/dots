@@ -6,7 +6,7 @@
 
 # Kill already running process
 #_ps=(picom dunst ksuperkey mpd xfce-polkit xfce4-power-manager)
-_ps=(polybar picom dunst ksuperkey mpd xfce-polkit xfce4-power-manager)
+_ps=(easyeffects pasystray polybar picom dunst ksuperkey mpd xfce-polkit xfce4-power-manager)
 for _prs in "${_ps[@]}"; do
 	if [[ `pidof ${_prs}` ]]; then
 		killall -9 ${_prs}
