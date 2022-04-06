@@ -50,7 +50,7 @@ easyeffects --gapplication-service &
 pasystray &
 
 # Blueberry
-blueberry-tray &
+# blueberry-tray &
 
 # Start mpd
 # exec mpd &
