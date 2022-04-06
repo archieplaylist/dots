@@ -5,6 +5,10 @@ include $HOME/.config/i3/workspaces.conf
 include $HOME/.config/i3/keys.conf
 include $HOME/.config/i3/rules.conf
 
+##-- Mod Keys ----------------------------
+set $mod Mod4
+set $alt Mod1
+
 ##-- Autostart ---------------------------
 
 exec_always --no-startup-id 	~/.config/i3/bin/autostart.sh
