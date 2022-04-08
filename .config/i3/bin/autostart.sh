@@ -31,7 +31,8 @@ ksuperkey -e 'Super_L=Alt_L|F1' &
 ksuperkey -e 'Super_R=Alt_L|F1' &
 
 # Restore wallpaper
-hsetroot -cover ~/.config/wallpapers/Sprinkle.svg
+# hsetroot -cover ~/.config/wallpapers/Sprinkle.svg
+nitrogen --restore &
 
 # Lauch notification daemon
 ~/.config/i3/bin/i3dunst.sh
