@@ -55,3 +55,5 @@ pasystray &
 
 # Start mpd
 # exec mpd &
+
+autotiling &
